@@ -1,6 +1,6 @@
 # IoC Containers
 
-I was curious how registration works in the various .NET IoC containers so I threw together some code to find out. The `IoCContainers.Core.Registration` namespace contains classes that do type registration using:
+I was curious how registration works in the various .NET IoC containers so I threw together some code to find out. The `Core` project contains classes that do type registration using:
 
 - [Autofac](http://code.google.com/p/autofac/)    
 - [Windsor](http://docs.castleproject.org/Default.aspx?Page=MainPage&NS=Windsor&AspxAutoDetectCookieSupport=1)  
