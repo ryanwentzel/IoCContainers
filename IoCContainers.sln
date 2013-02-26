@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{2675276E-284B-43FA-A7D0-E85C107396D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Tests", "Core.Tests\Core.Tests.csproj", "{2388976B-10F5-47CF-932D-BDAFE1C267B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C8549825-0A6A-407F-B504-88D336D98147}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2675276E-284B-43FA-A7D0-E85C107396D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2675276E-284B-43FA-A7D0-E85C107396D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2675276E-284B-43FA-A7D0-E85C107396D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2675276E-284B-43FA-A7D0-E85C107396D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2388976B-10F5-47CF-932D-BDAFE1C267B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2388976B-10F5-47CF-932D-BDAFE1C267B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2388976B-10F5-47CF-932D-BDAFE1C267B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2388976B-10F5-47CF-932D-BDAFE1C267B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
